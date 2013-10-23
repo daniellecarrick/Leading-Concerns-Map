@@ -65,11 +65,11 @@
           regions: [{
             scale: ['#007dc3', '#D7EDFA'],
             normalizeFunction: 'polynomial',
-            values: data
+            values: data.countries
           }]
         },
         onRegionLabelShow: function(e, el, code)
-        {el.html(el.html()+' (The Value - '+data[code]+')');}
+        {el.html(el.html()+' Rank - '+data.countries[code]);}
         
       });
        	 $("select").change(function () {
