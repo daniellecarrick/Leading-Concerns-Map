@@ -1,3 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;	
+	height:100%;
+	width: 100%;
+}
+
+.group {
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #cacaca;
+	text-shadow: 0px -1px 1px #1f1f1f;
+	background-color: #000;
+	position: relative;
+	z-index: 1;
+	}
+	
+
+
+button {
+	color: white;
+	background-color: #007dc3;
+	border: none;
+	cursor: hand;
+	padding: 5px;
+}
+
+.round {
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	behavior: url(pie/PIE.htc);
+}
+
+select {
+	-webkit-appearance: none;
+	padding: 7px;
+	width:250px;
+	border: 1px solid #ccc;
+	margin: 20px 0;
+}
+
+option {
+	color: #777;
+	border: 1px solid #ccc;
+	padding: 7px;
+}
+
+#data-selection {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	opacity: .5;
+	width: 300px;
+	z-index: 100;
+	float: right;
+	position: absolute;
+	margin: 50px;
+	padding: 20px;
+}
+
+.year {
+	margin: 0 10px 0 0;
+	background: rgba(0, 125, 195, 1);
+}
+
+
+/* 
+ * 
+ *Map styles
+ *
+ */
+
+.jvectormap-container {
+	height:100%;
+	
+}
+
 .jvectormap-label {
     position: absolute;
     display: none;
@@ -36,8 +118,3 @@
     top: 30px;
 }
 
-body {
-	height: 100%;
-	padding:0;
-	margin: 0;
-}

@@ -1,0 +1,170 @@
+[
+    [
+        "Global",
+        2013,
+        "Recession and unemployment",
+        1,
+        "41%"
+    ],
+    [
+        "Global",
+        2000,
+        "Recession and unemployment",
+        2,
+        "42%"
+    ],
+    [
+        "Global",
+        2013,
+        "Inflation and high prices",
+        1,
+        "41%"
+    ],
+    [
+        "Global",
+        2000,
+        "Inflation and high prices",
+        4,
+        "27%"
+    ],
+    [
+        "Global",
+        2013,
+        "Crime and lawlessness",
+        4,
+        "34%"
+    ],
+    [
+        "Global",
+        2000,
+        "Crime and lawlessness",
+        1,
+        "43%"
+    ],
+    [
+        "Global",
+        2013,
+        "Money enough to live right and pay the bills",
+        3,
+        "35%"
+    ],
+    [
+        "Global",
+        2000,
+        "Money enough to live right and pay the bills",
+        3,
+        "28%"
+    ],
+    [
+        "Canada",
+        2013,
+        "Recession and unemployment",
+        4,
+        "34%"
+    ],
+    [
+        "Canada",
+        2000,
+        "Recession and unemployment",
+        3,
+        "33%"
+    ],
+    [
+        "Canada",
+        2013,
+        "Inflation and high prices",
+        2,
+        "43%"
+    ],
+    [
+        "Canada",
+        2000,
+        "Inflation and high prices",
+        0,
+        ""
+    ],
+    [
+        "Canada",
+        2013,
+        "Crime and lawlessness",
+        0,
+        ""
+    ],
+    [
+        "Canada",
+        2000,
+        "Crime and lawlessness",
+        2,
+        "41%"
+    ],
+    [
+        "Canada",
+        2013,
+        "Money enough to live right and pay the bills",
+        3,
+        "39%"
+    ],
+    [
+        "Canada",
+        2000,
+        "Money enough to live right and pay the bills",
+        1,
+        "46%"
+    ],
+    [
+        "US",
+        2013,
+        "Recession and unemployment",
+        4,
+        "34%"
+    ],
+    [
+        "US",
+        2000,
+        "Recession and unemployment",
+        1,
+        "43%"
+    ],
+    [
+        "US",
+        2013,
+        "Inflation and high prices",
+        2,
+        "42%"
+    ],
+    [
+        "US",
+        2000,
+        "Inflation and high prices",
+        0,
+        ""
+    ],
+    [
+        "US",
+        2013,
+        "Crime and lawlessness",
+        0,
+        ""
+    ],
+    [
+        "US",
+        2000,
+        "Crime and lawlessness",
+        1,
+        "49%"
+    ],
+    [
+        "US",
+        2013,
+        "Money enough to live right and pay the bills",
+        3,
+        "39%"
+    ],
+    [
+        "US",
+        2000,
+        "Money enough to live right and pay the bills",
+        3,
+        "34%"
+    ]
+]
