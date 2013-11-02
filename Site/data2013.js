@@ -480,7 +480,7 @@
       }
    },
    {
-      "Pandemics (epidemics that spread across world)":{
+      "Pandemics":{
          "Total Global":17,
          "US":0,
          "CA":0,

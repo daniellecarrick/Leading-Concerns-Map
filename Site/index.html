@@ -37,17 +37,23 @@
   <script src="lib/world-map.js"></script>
 
   <script src="assets/jquery-jvectormap-world-mill-en.js"></script>
-  <script src="data.js"></script>
+  <script src="allData.js"></script>
   <script>
     jQuery.noConflict();
     jQuery(function(){
-      var $ = jQuery;
+      var $ = jQuery,
+        $map = $('#map1');
 
-    
+      var options = {
+        "year" : 2000,
+        "concern" : "Recession and unemployment"
+      }
+
       $('#focus-init').click(function(){
-        $('#map1').vectorMap('set', 'focus', 1, 0, 0);
+        $map.vectorMap('set', 'focus', 1, 0, 0);
       });
-      $('#map1').vectorMap({
+
+      $map.vectorMap({
         map: 'world_mill_en',
         focusOn: {
           x: 0.5,
@@ -56,41 +62,47 @@
         },
         
         backgroundColor: '#E8F7FA', //very light blue for ocean
- 		regionStyle: {
- 			initial: {
- 				fill: '#ddd'
- 			}
- 		},
+        regionStyle: {
+          initial: {
+            fill: '#ddd'
+          }
+        },
         series: {
           regions: [{
             scale: ['#007dc3', '#D7EDFA'],
             normalizeFunction: 'polynomial',
-            values: data.countries
+            values: data[options.year][options.concern]
           }]
         },
-        onRegionLabelShow: function(e, el, code)
-        {el.html(el.html()+' Rank - '+data.countries[code]);}
-        
+        onRegionLabelShow: function(e, el, code) {
+          el.html(el.html()+' Rank - '+data[options.year][options.concern][code]);
+        }
       });
-       	 $("select").change(function () {
-  $("div").animate({ 
-    left: 0
-  });
-  
-  var val = $(this).val();
-  
-  switch(val){
-    case 'recession':
-      alert('recession');
-      break
-      
-    case 'environment':
-      alert('environment');
-      break
-  }
-});
-    })
-   
+
+      $('.js-year').on({
+        click : function(e) {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          options.year = $(this).attr('id');
+          updateMap();
+        }
+      });
+
+      //Select Change
+      $(".js-select").on({
+        change : function (e) {
+          options.concern = $(this).val();
+          updateMap();
+        }
+      });
+
+      var updateMap = function () {
+        var mapObject = $map.vectorMap('get', 'mapObject');
+        mapObject.series.regions[0].setValues(data[options.year][options.concern]);
+      };
+
+    });
   </script>
 
 </head>
@@ -100,38 +112,38 @@
 </div>
 
 <div id="data-selection" class="round">
-	<button id="2000" class="year round">2000</button>
-	<button id="2013" class="year round">2013</button>
+	<button id="2000" class="year round js-year active">2000</button>
+	<button id="2013" class="year round js-year">2013</button>
    
   <!--Dropdown menu-->
   
-<select>
-  <option value="recession">Recession and unemployment</option>
-  <option value="inflation">Inflation and high prices</option>
-  <option value="money">Money enough to live right and pay the bills</option>
-  <option value="crime">Crime and lawlessness</option>
+<select class="js-select">
+  <option value="Recession and unemployment">Recession and unemployment</option>
+  <option value="Inflation and high prices">Inflation and high prices</option>
+  <option value="Money enough to live right and pay the bills">Money enough to live right and pay the bills</option>
+  <option value="Crime and lawlessness">Crime and lawlessness</option>
   
-  <option value="environment">Environmental pollution</option>
-  <option value="corruption">Corruption of elected officials</option>
-  <option value="education">Educational quality</option>
-  <option value="healthcare">Cost of health care</option>
+  <option value="Environmental pollution">Environmental pollution</option>
+  <option value="Wrongdoing by/corruption of elected officials">Wrongdoing by/corruption of elected officials</option>
+  <option value="Educational quality">Educational quality</option>
+  <option value="Cost of health care">Cost of health care</option>
   
-   <option value="benefits">Future of retirement benefits provided by gov</option>
-  <option value="inequality">Economic inequality</option>
-  <option value="climate">Global climate change</option>
-  <option value="identitytheft">Personal information getting into wrong hands</option>
+   <option value="Future of retirement benefits provided by gov">Future of retirement benefits provided by gov</option>
+  <option value="Economic inequality">Economic inequality</option>
+  <option value="Global climate change/global warming">Global climate change/global warming</option>
+  <option value="Personal information getting into wrong hands">Personal information getting into wrong hands</option>
   
-  <option value="terrorism">Terrorism</option>
-  <option value="drugs">Drug abuse</option>
-  <option value="extremism">Religious extremism</option>
-  <option value="immigration">Immigration</option>
+  <option value="Terrorism">Terrorism</option>
+  <option value="Drug abuse">Drug abuse</option>
+  <option value="Religious exptremism/fundamentalism">Religious exptremism/fundamentalism</option>
+  <option value="Immigration">Immigration</option>
   
-  <option value="pandemics">Pandemics</option>
-  <option value="diplomacy">Relations with foreign countries</option>
-  <option value="aids">AIDS</option>
-  <option value="ethnic">Relations between racial and ethnic groups</option>
+  <option value="Pandemics">Pandemics</option>
+  <option value="Relations with foreign countries">Relations with foreign countries</option>
+  <option value="AIDS">AIDS</option>
+  <option value="Relations between racial and ethnic groups">Relations between racial and ethnic groups</option>
   
-  <option value="thirdworld">Aid to countries in Third World</option>
+  <option value="Aid to countries in Third World">Aid to countries in Third World</option>
 </select>
 
 <button id="focus-init" class="round">Reset Map</button>
