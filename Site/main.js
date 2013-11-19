@@ -7,6 +7,8 @@
         "year" : 2008,
         "concern" : "Recession and unemployment"
       }
+      
+     
 
       $('#focus-init').click(function(){
         $map.vectorMap('set', 'focus', 1, 0, 0);
@@ -20,7 +22,7 @@
           scale: 1
         },
         
-        backgroundColor: '#E8F7FA', //very light blue for ocean
+        backgroundColor: 'transparent', //very light blue for ocean
         regionStyle: {
           initial: {
             fill: '#ddd'
@@ -44,7 +46,7 @@
         click : function(e) {
           $(this).siblings().removeClass('active');
           $(this).addClass('active');
-
+		
           options.year = $(this).attr('id');
           updateMap();
         }
@@ -55,6 +57,9 @@
         change : function (e) {
           options.concern = $(this).val();
           updateMap();
+        //  var rankText = data[options.year][options.concern][code] || 'unranked';
+         // $( "#text" ).append('<p>rankText<p>');
+          //console.log(data[options.year][options.concern]);
         }
       });
 

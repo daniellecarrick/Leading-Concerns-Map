@@ -26,7 +26,8 @@ var data = {
 			"JP":undefined,
 			"KR":1,
 			"TW":1,
-			"TH":1},
+			"TH":1,
+			},
 
 "Inflation and high prices":{
 			"Total Global":1,

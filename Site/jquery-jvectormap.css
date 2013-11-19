@@ -54,9 +54,7 @@ option {
 }
 
 #data-selection {
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.7);
-	opacity: .5;
+	background-image:url('bg-pixel.png');
 	width: 80%;
 	z-index: 100;
 	position: absolute;
