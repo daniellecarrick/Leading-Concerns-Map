@@ -39,6 +39,7 @@
         }
       });
 
+	//changes active and inactive colors of the year buttons
       $('.js-year').on({
         click : function(e) {
           $(this).siblings().removeClass('active');
@@ -49,7 +50,7 @@
         }
       });
 
-      //Select Change
+      //Updates the map when you chagne the leading concern selection
       $(".js-select").on({
         change : function (e) {
           options.concern = $(this).val();
@@ -61,5 +62,6 @@
         var mapObject = $map.vectorMap('get', 'mapObject');
         mapObject.series.regions[0].setValues(data[options.year][options.concern]);
       };
+      
 
     });
