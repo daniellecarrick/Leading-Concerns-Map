@@ -1,7 +1,6 @@
 var data = {
 	"2008" : {
 		"Recession and unemployment":{
-			"Total Global":3,
 			"US":5,
 			"CA":undefined,
 			"AR":5,
@@ -12,7 +11,7 @@ var data = {
 			"IT":3,
 			"ES":5,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":4,
 			"RU":undefined,
@@ -26,11 +25,9 @@ var data = {
 			"JP":undefined,
 			"KR":1,
 			"TW":1,
-			"TH":1,
+			"TH":1
 			},
-
-"Inflation and high prices":{
-			"Total Global":1,
+		"Inflation and high prices":{
 			"US":2,
 			"CA":2,
 			"AR":4,
@@ -41,7 +38,7 @@ var data = {
 			"IT":2,
 			"ES":3,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":1,
 			"PL":2,
 			"RU":1,
@@ -55,10 +52,10 @@ var data = {
 			"JP":undefined,
 			"KR":2,
 			"TW":2,
-			"TH":2},
+			"TH":2
+		},
 
-"Money enough to live right and pay the bills":{
-			"Total Global":3,
+		"Money enough to live right and pay the bills":{
 			"US":2,
 			"CA":1,
 			"AR":undefined,
@@ -69,7 +66,7 @@ var data = {
 			"IT":4,
 			"ES":4,
 			"SE":5,
-			"UK":2,
+			"GB":2,
 			"CZ":3,
 			"PL":2,
 			"RU":2,
@@ -83,10 +80,10 @@ var data = {
 			"JP":undefined,
 			"KR":4,
 			"TW":4,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Crime and lawlessness":{
-			"Total Global":2,
+		"Crime and lawlessness":{
 			"US":1,
 			"CA":3,
 			"AR":1,
@@ -97,7 +94,7 @@ var data = {
 			"IT":1,
 			"ES":1,
 			"SE":2,
-			"UK":1,
+			"GB":1,
 			"CZ":2,
 			"PL":1,
 			"RU":3,
@@ -111,10 +108,10 @@ var data = {
 			"JP":3,
 			"KR":undefined,
 			"TW":5,
-			"TH":4},
+			"TH":4
+		},
 
-"Environmental pollution":{
-			"Total Global":5,
+		"Environmental pollution":{
 			"US":undefined,
 			"CA":4,
 			"AR":undefined,
@@ -125,7 +122,7 @@ var data = {
 			"IT":5,
 			"ES":undefined,
 			"SE":1,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -139,10 +136,10 @@ var data = {
 			"JP":1,
 			"KR":3,
 			"TW":undefined,
-			"TH":5},
+			"TH":5
+		},
 
-"Wrongdoing by/corruption of elected officials":{
-			"Total Global":9,
+		"Wrongdoing by/corruption of elected officials":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -153,7 +150,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":5,
 			"RU":5,
@@ -167,10 +164,10 @@ var data = {
 			"JP":4,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Educational quality":{
-			"Total Global":6,
+		"Educational quality":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":3,
@@ -181,7 +178,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -195,10 +192,10 @@ var data = {
 			"JP":undefined,
 			"KR":5,
 			"TW":3,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Cost of health care":{
-			"Total Global":8,
+		"Cost of health care":{
 			"US":4,
 			"CA":undefined,
 			"AR":undefined,
@@ -209,7 +206,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":4,
 			"PL":undefined,
 			"RU":undefined,
@@ -223,10 +220,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Future of retirement benefits provided by govt'":{
-			"Total Global":13,
+		"Future of retirement benefits provided by govt":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -237,7 +234,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":5,
 			"PL":undefined,
 			"RU":undefined,
@@ -251,10 +248,10 @@ var data = {
 			"JP":4,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Economic inequality":{
-			"Total Global":14,
+		"Economic inequality":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -265,7 +262,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -279,10 +276,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Global climate change/global warming":{
-			"Total Global":11,
+		"Global climate change/global warming":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -293,7 +290,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":3,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -307,10 +304,10 @@ var data = {
 			"JP":2,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Personal information getting into wrong hands":{
-			"Total Global":undefined,
+		"Personal information getting into wrong hands":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -321,7 +318,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -335,10 +332,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Terrorism":{
-			"Total Global":9,
+		"Terrorism":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -349,7 +346,7 @@ var data = {
 			"IT":undefined,
 			"ES":2,
 			"SE":4,
-			"UK":5,
+			"GB":5,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -363,10 +360,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Drug abuse":{
-			"Total Global":7,
+		"Drug abuse":{
 			"US":undefined,
 			"CA":4,
 			"AR":2,
@@ -377,7 +374,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":4,
+			"GB":4,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":4,
@@ -391,10 +388,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":3},
+			"TH":3
+		},
 
-"Religious exptremism/fundamentalism":{
-			"Total Global":16,
+		"Religious extremism/fundamentalism":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -405,7 +402,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -419,10 +416,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Immigration":{
-			"Total Global":14,
+		"Immigration":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -433,7 +430,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":2,
+			"GB":2,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -447,10 +444,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Pandemics (epidemics that spread across world)":{
-			"Total Global":undefined,
+		"Pandemics":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -461,7 +458,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -475,10 +472,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Relations with foreing countries":{
-			"Total Global":18,
+		"Relations with foreign countries":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -489,7 +486,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -503,10 +500,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"AIDS":{
-			"Total Global":11,
+		"AIDS":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -517,7 +514,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -531,10 +528,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Relations between racial and ethnic groups":{
-			"Total Global":16,
+		"Relations between racial and ethnic groups":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -545,7 +542,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -559,10 +556,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Aid to countries in Third World":{
-			"Total Global":19,
+		"Aid to countries in Third World":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -573,7 +570,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -589,10 +586,9 @@ var data = {
 			"TW":undefined,
 			"TH":undefined
 		}
-},
-"2013" :{
-"Recession and unemployment":{
-			"Total Global":1,
+	},
+	"2013" : {
+		"Recession and unemployment":{
 			"US":1,
 			"CA":3,
 			"AR":4,
@@ -603,7 +599,7 @@ var data = {
 			"IT":1,
 			"ES":1,
 			"SE":3,
-			"UK":1,
+			"GB":1,
 			"CZ":1,
 			"PL":1,
 			"RU":4,
@@ -617,10 +613,10 @@ var data = {
 			"JP":1,
 			"KR":1,
 			"TW":1,
-			"TH":4},
+			"TH":4
+		},
 
-"Inflation and high prices":{
-			"Total Global":1,
+		"Inflation and high prices":{
 			"US":2,
 			"CA":2,
 			"AR":2,
@@ -631,7 +627,7 @@ var data = {
 			"IT":5,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":3,
+			"GB":3,
 			"CZ":4,
 			"PL":2,
 			"RU":1,
@@ -645,10 +641,10 @@ var data = {
 			"JP":undefined,
 			"KR":3,
 			"TW":2,
-			"TH":1},
+			"TH":1
+		},
 
-"Money enough to live right and pay the bills":{
-			"Total Global":3,
+		"Money enough to live right and pay the bills":{
 			"US":3,
 			"CA":1,
 			"AR":5,
@@ -659,7 +655,7 @@ var data = {
 			"IT":2,
 			"ES":3,
 			"SE":4,
-			"UK":2,
+			"GB":2,
 			"CZ":5,
 			"PL":3,
 			"RU":2,
@@ -673,10 +669,10 @@ var data = {
 			"JP":3,
 			"KR":4,
 			"TW":3,
-			"TH":5},
+			"TH":5
+		},
 
-"Crime and lawlessness":{
-			"Total Global":4,
+		"Crime and lawlessness":{
 			"US":5,
 			"CA":undefined,
 			"AR":1,
@@ -687,7 +683,7 @@ var data = {
 			"IT":4,
 			"ES":undefined,
 			"SE":1,
-			"UK":4,
+			"GB":4,
 			"CZ":3,
 			"PL":5,
 			"RU":3,
@@ -701,10 +697,10 @@ var data = {
 			"JP":undefined,
 			"KR":2,
 			"TW":undefined,
-			"TH":3},
+			"TH":3
+		},
 
-"Envrionmental pollution":{
-			"Total Global":5,
+		"Environmental pollution":{
 			"US":undefined,
 			"CA":5,
 			"AR":undefined,
@@ -715,7 +711,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":1,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -729,10 +725,10 @@ var data = {
 			"JP":5,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Wrongdoing by/corruption of elected officials":{
-			"Total Global":6,
+		"Wrongdoing by/corruption of elected officials":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -743,7 +739,7 @@ var data = {
 			"IT":3,
 			"ES":2,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":1,
 			"PL":5,
 			"RU":4,
@@ -757,10 +753,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Educational quality":{
-			"Total Global":6,
+		"Educational quality":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":3,
@@ -771,7 +767,7 @@ var data = {
 			"IT":undefined,
 			"ES":4,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -785,10 +781,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Cost of health care":{
-			"Total Global":8,
+		"Cost of health care":{
 			"US":4,
 			"CA":undefined,
 			"AR":undefined,
@@ -799,7 +795,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -813,10 +809,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Future of retirement benefits provided by govt'":{
-			"Total Global":8,
+		"Future of retirement benefits provided by govt":{
 			"US":undefined,
 			"CA":4,
 			"AR":undefined,
@@ -827,7 +823,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":5,
+			"GB":5,
 			"CZ":undefined,
 			"PL":4,
 			"RU":undefined,
@@ -841,10 +837,10 @@ var data = {
 			"JP":2,
 			"KR":undefined,
 			"TW":5,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Economic inequality":{
-			"Total Global":10,
+		"Economic inequality":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -855,7 +851,7 @@ var data = {
 			"IT":undefined,
 			"ES":5,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -869,10 +865,10 @@ var data = {
 			"JP":undefined,
 			"KR":5,
 			"TW":4,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Global climate change/global warming":{
-			"Total Global":11,
+		"Global climate change/global warming":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -883,7 +879,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -897,10 +893,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Personal information getting into wrong hands":{
-			"Total Global":12,
+		"Personal information getting into wrong hands":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -911,7 +907,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -925,10 +921,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Terrorism":{
-			"Total Global":12,
+		"Terrorism":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -939,7 +935,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -953,10 +949,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Drug abuse":{
-			"Total Global":12,
+		"Drug abuse":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -967,7 +963,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -981,10 +977,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":1},
+			"TH":1
+		},
 
-"Religious exptremism/fundamentalism":{
-			"Total Global":15,
+		"Religious extremism/fundamentalism":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -995,7 +991,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":5,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1009,10 +1005,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Immigration":{
-			"Total Global":16,
+		"Immigration":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1023,7 +1019,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1037,10 +1033,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Pandemics (epidemics that spread across world)":{
-			"Total Global":17,
+		"Pandemics":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1051,7 +1047,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1065,10 +1061,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Relations with foreing countries":{
-			"Total Global":17,
+		"Relations with foreign countries":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1079,7 +1075,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1093,10 +1089,10 @@ var data = {
 			"JP":4,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"AIDS":{
-			"Total Global":19,
+		"AIDS":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1107,7 +1103,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1121,10 +1117,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Relations between racial and ethnic groups":{
-			"Total Global":20,
+		"Relations between racial and ethnic groups":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1135,7 +1131,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1149,10 +1145,10 @@ var data = {
 			"JP":undefined,
 			"KR":undefined,
 			"TW":undefined,
-			"TH":undefined},
+			"TH":undefined
+		},
 
-"Aid to countries in Third World":{
-			"Total Global":21,
+		"Aid to countries in Third World":{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -1163,7 +1159,7 @@ var data = {
 			"IT":undefined,
 			"ES":undefined,
 			"SE":undefined,
-			"UK":undefined,
+			"GB":undefined,
 			"CZ":undefined,
 			"PL":undefined,
 			"RU":undefined,
@@ -1180,4 +1176,4 @@ var data = {
 			"TH":undefined
 		}
 	}
-}
+};
