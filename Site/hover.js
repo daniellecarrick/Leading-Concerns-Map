@@ -1,4 +1,4 @@
-var hoverText = {
+var hover = {
 	"2008":{
 			"US":"1 Concern<br/>2 Concern<br />3 Concern<br />4 Concern<br />5 Concern<br />",
 			"CA":"1 Concern<br/>2 Concern<br />3 Concern<br />4 Concern<br />5 Concern<br />",
@@ -54,4 +54,4 @@ var hoverText = {
 			"TH":"1 Concern<br/>2 Concern<br />3 Concern<br />4 Concern<br />5 Concern<br />"
 			}
 
-}
+};

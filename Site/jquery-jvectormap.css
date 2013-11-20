@@ -58,7 +58,7 @@ option {
 }
 
 .text-container {
-	width: 80%;
+	width: 90%;
 	height:130px;
 	z-index: 100;
 	position: fixed;
@@ -75,7 +75,7 @@ option {
 
 #text {
 	background-image:url('bg-pixel.png');
-	width: 500px;
+	width: 400px;
 	padding:20px;
 	color:white;
 	font-size: 12px;

@@ -35,7 +35,8 @@
         },
         onRegionLabelShow: function(e, el, code) {
           var rankText = data[options.year][options.concern][code] || 'unranked';  
-          el.html(el.html()+' Rank - ' + rankText);
+          var hoverText = hover[options.year][code] || '';
+          el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
         }
       });
 
