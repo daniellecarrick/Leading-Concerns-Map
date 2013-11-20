@@ -46,6 +46,8 @@
           $(this).addClass('active');
 		
           options.year = $(this).attr('id');
+          console.log('year updated!')
+          console.log(options);
           updateMap();
         }
       });
@@ -54,10 +56,10 @@
       $(".js-select").on({
         change : function (e) {
           options.concern = $(this).val();
+          console.log('concern updated');
           updateMap();
-          // var rankText = data[options.year][options.concern][code] || 'unranked';
-          // $( "#text" ).append('<p>rankText<p>');
-          // console.log(data[options.year][options.concern]);
+          updateText();
+          console.log(options);
         }
       });
 
@@ -66,5 +68,10 @@
         mapObject.series.regions[0].setValues(data[options.year][options.concern]);
       };
       
-
+      var updateText = function () {
+        var concernYear = options.year;
+        var concernName = options.concern;
+        $('#text').text(concernDescriptions[options.year][options.concern]['desc']);
+      };
+      updateText();
     });
