@@ -34,7 +34,7 @@
           }]
         },
         onRegionLabelShow: function(e, el, code) {
-          var rankText = data[options.year][options.concern][code] || 'unranked';
+          var rankText = hoverText[code] || 'unranked';
           el.html(el.html()+' Rank - ' + rankText);
         }
       });
@@ -49,6 +49,7 @@
           console.log('year updated!')
           console.log(options);
           updateMap();
+          updateText();
         }
       });
 
@@ -71,7 +72,7 @@
       var updateText = function () {
         var concernYear = options.year;
         var concernName = options.concern;
-        $('#text').text(concernDescriptions[options.year][options.concern]['desc']);
+        $('#text').html(concernDescriptions[options.year][options.concern]['desc']);
       };
       updateText();
     });
