@@ -34,7 +34,7 @@
           }]
         },
         onRegionLabelShow: function(e, el, code) {
-          var rankText = hoverText[code] || 'unranked';
+          var rankText = data[options.year][options.concern][code] || 'unranked';  
           el.html(el.html()+' Rank - ' + rankText);
         }
       });
@@ -74,5 +74,4 @@
         var concernName = options.concern;
         $('#text').html(concernDescriptions[options.year][options.concern]['desc']);
       };
-      updateText();
     });
