@@ -154,7 +154,7 @@ var concernDescriptions = {
 		},
 
 		"Aid to countries in Third World":{
-			"desc" : "<img src='img/icon01.png'/><p>2013 | Aid to countries in Third World</strong><br /><strong>Aid to countries in the Third World</strong> is last among 19 trended concerns, unchanged from 2008. It is not a top-five issue in any of 25 countries. "
+			"desc" : "<img src='img/icon01.png'/><p>2013 | Aid to countries in Third World</strong><br /><strong>Aid to countries in the Third World</strong> is last among 19 trended concerns, unchanged from 2008. It is not a top-five issue in any of 25 countries. </p>"
 		}
 	}
 };

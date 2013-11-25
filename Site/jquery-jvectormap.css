@@ -96,6 +96,10 @@ option {
  	margin-left: 5%;
  }
 
+ #text strong {
+ 	margin-bottom: 10px;
+ }
+
 .gray-box {
 	background-image:url('bg-pixel.png');
 	width: 30%;
