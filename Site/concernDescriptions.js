@@ -1,14 +1,14 @@
 var concernDescriptions = {
 	"2008" : {
 		"Recession and unemployment":{
-			"desc" : "<img src='img/icon01.png'/><p><strong>2008 | Recession and unemployment</strong><p><strong><Recession and unemployment</strong> was #3 of 19 trended concerns in 2008, tied with having enough money. It was among the top five issues in 17 countries and was #1 in three: South Korea, Taiwan, and Thailand.</p>"
+			"desc" : "<img src='img/icon01.png'/><p><strong>2008 | Recession and unemployment</strong><br /><strong><Recession and unemployment</strong> was #3 of 19 trended concerns in 2008, tied with having enough money. It was among the top five issues in 17 countries and was #1 in three: South Korea, Taiwan, and Thailand.</p>"
 		},
 		"Inflation and high prices":{
 			"desc" : "<img src='img/icon06.png'/><p><strong>2008 | Inflation and high prices</strong><br /><strong>Inflation and high prices</strong> was the #1 concern globally in 2008, up 2 places from 2003, when it ranked 3rd. It was in the top five in 17 countries and was #1 in seven, including China, Germany, and France.</p>"
 		},
 
 		"Money enough to live right and pay the bills":{
-			"desc" : "<img src='img/icon11.png'/><p><strong>2008 | Money enough to live right and pay the bills</strong><p><strong>Having money enough to live right and pay the bills</strong> was tied for #3 globally in 2008 with recession and unemployment. It was in the top five in 15 countries and was #1 in one, Canada.</p>"
+			"desc" : "<img src='img/icon11.png'/><p><strong>2008 | Money enough to live right and pay the bills</strong><br /><strong>Having money enough to live right and pay the bills</strong> was tied for #3 globally in 2008 with recession and unemployment. It was in the top five in 15 countries and was #1 in one, Canada.</p>"
 		},
 
 		"Crime and lawlessness":{
@@ -20,7 +20,7 @@ var concernDescriptions = {
 		},
 
 		"Wrongdoing by/corruption of elected officials":{
-			"desc" : "<img src='img/icon07.png'/><p><strong>2008 | Wrongdoing by/corruption of elected officials</strong><p><strong>Wrongdoing and corruption</strong> on the part of elected government officials tied with terrorism for the 9th-ranked concern globally in 2008. It was in the top five in five countries. </p>"
+			"desc" : "<img src='img/icon07.png'/><p><strong>2008 | Wrongdoing by/corruption of elected officials</strong><br /><strong>Wrongdoing and corruption</strong> on the part of elected government officials tied with terrorism for the 9th-ranked concern globally in 2008. It was in the top five in five countries. </p>"
 		},
 
 		"Educational quality":{
@@ -32,7 +32,7 @@ var concernDescriptions = {
 		},
 
 		"Future of retirement benefits provided by govt":{
-			"desc" : "<img src='img/icon17.png'/><p><strong>2008 | Future of retirement benefits provided by govt</strong><p><strong>The future of retirement and pension plans</strong> funded by government ranked #13 of 19 trended issues globally in 2008. It was in the top five in two countries, Japan and Germany. </p>"
+			"desc" : "<img src='img/icon17.png'/><p><strong>2008 | Future of retirement benefits provided by govt</strong><br /><strong>The future of retirement and pension plans</strong> funded by government ranked #13 of 19 trended issues globally in 2008. It was in the top five in two countries, Japan and Germany. </p>"
 		},
 
 		"Economic inequality":{
@@ -49,7 +49,7 @@ var concernDescriptions = {
 		},
 
 		"Drug abuse":{
-		"desc" : "<img src='img/icon04.png'/><p><strong>2008 | Drug abuse</strong><p><strong>Drug abuse</strong> was the #7 concern globally in 2008. It ranked in the top five in 13 countries, led by Argentina, Brazil, and Mexico (#2 each). </p>"
+		"desc" : "<img src='img/icon04.png'/><p><strong>2008 | Drug abuse</strong><br /><strong>Drug abuse</strong> was the #7 concern globally in 2008. It ranked in the top five in 13 countries, led by Argentina, Brazil, and Mexico (#2 each). </p>"
 		},
 
 		"Religious extremism/fundamentalism":{
@@ -133,11 +133,11 @@ var concernDescriptions = {
 		},
 
 		"Religious extremism/fundamentalism":{
-			"desc" : "<img src='img/icon09.png'/><p>2013 | Religious extremism/fundamentalism</strong><p><strong>Religious extremism/fundamentalism</strong> is #14 among trended global concerns. But it has moved up 2 ranks from 2008. It is not a top-five issue in any country. </p>"
+			"desc" : "<img src='img/icon09.png'/><p>2013 | Religious extremism/fundamentalism</strong><br /><strong>Religious extremism/fundamentalism</strong> is #14 among trended global concerns. But it has moved up 2 ranks from 2008. It is not a top-five issue in any country. </p>"
 		},
 
 		"Immigration":{
-			"desc" : "<img src='img/icon14.png'/><p>2013 | Immigration</strong><p><strong>Immigration</strong> ranks #15 globally, -1 rank from five years ago. It is a top-five concern in one country, the UK (#4).</p>"
+			"desc" : "<img src='img/icon14.png'/><p>2013 | Immigration</strong><br /><strong>Immigration</strong> ranks #15 globally, -1 rank from five years ago. It is a top-five concern in one country, the UK (#4).</p>"
 		},
 
 		"Relations with foreign countries":{
