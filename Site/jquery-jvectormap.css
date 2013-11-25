@@ -90,7 +90,11 @@ option {
 	color:white;
 	font-size: 12px;
 }
-
+ #text p {
+ 	float:right;
+ 	width:80%;
+ 	margin-left: 5%;
+ }
 
 .gray-box {
 	background-image:url('bg-pixel.png');
