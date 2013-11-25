@@ -8,6 +8,7 @@ body {
 	height:100%;
 	width: 100%;
 	background-image: url(backgroundimg.png);
+	min-width:800px;
 }
 
 .nav-bar{
@@ -65,6 +66,7 @@ option {
 	top:30px;
 	margin: 50px;
 	padding: 20px;
+	min-width:800px;
 }
 
 .text-container p {
@@ -83,7 +85,7 @@ option {
 #text {
 	background-image:url('bg-pixel.png');
 	background-repeat:repeat;
-	width: 400px;
+	width: 40%;
 	padding:20px;
 	color:white;
 	font-size: 12px;
