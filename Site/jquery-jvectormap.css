@@ -29,6 +29,12 @@ body {
 	width:50%;
 }
 
+.scale {
+	position: absolute;
+	bottom: 40px;
+	left:40px;
+}
+
 button {
 	color: white;
 	background-color: #007dc3;
