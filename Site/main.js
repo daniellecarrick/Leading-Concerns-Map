@@ -47,8 +47,8 @@
           $(this).addClass('active');
 		
           options.year = $(this).attr('id');
-          console.log('year updated!')
-          console.log(options);
+          //console.log('year updated!')
+          //console.log(options);
           updateMap();
           updateText();
         }
@@ -58,10 +58,10 @@
       $(".js-select").on({
         change : function (e) {
           options.concern = $(this).val();
-          console.log('concern updated');
+         // console.log('concern updated');
           updateMap();
           updateText();
-          console.log(options);
+          //console.log(options);
         }
       });
 
