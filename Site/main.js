@@ -36,9 +36,11 @@
         onRegionLabelShow: function(e, el, code) {
           var rankText = data[options.year][options.concern][code] || 'not in top 5';  
           var hoverText = hover[options.year][code] || '';
+          //if there is no value, display "not in survey"
           if (data[options.year][options.concern][code] == undefined){
-          	 el.html(el.html()+'<br />Not in survey');
+          	 el.html(el.html()+'<br />Not a surveyed country');
           } else {
+          	//if there is a value, display the ranks
           	el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
           	} 
         }
