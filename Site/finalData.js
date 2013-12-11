@@ -1,5 +1,5 @@
 var data = {
-	"2008" :
+	"2008" : {
 		"Inflation and high prices":{
 			"US":1,
 			"CA":2,
@@ -512,6 +512,7 @@ var data = {
 		"KR":undefined,
 		"TW":undefined,
 		"TH":undefined
+	}
 	},
 	"2013" : {
 		"Recession and unemployment" :{
@@ -985,7 +986,8 @@ var data = {
 		"JP":undefined,
 		"KR":undefined,
 		"TW":undefined,
-		"TH":undefined},
+		"TH":undefined
+		},
 		"Aid to countries in Third World" :{
 			"US":undefined,
 		"CA":undefined,
@@ -1013,4 +1015,5 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	}
+}
 };
