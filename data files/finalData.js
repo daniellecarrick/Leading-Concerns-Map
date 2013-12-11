@@ -108,7 +108,7 @@ var data = {
 			"TW":4,
 			"TH":undefined
 	},
-	"Environmental PLllution":{
+	"Environmental pollution":{
 		"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
@@ -216,7 +216,7 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	},
-		"Wrong-doing by/corruption of elected government officials" :{
+		"Wrongdoing by/corruption of elected officials" :{
 			"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
@@ -243,7 +243,7 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	},
-	"Global climate change/Global warming" :{
+	"Global climate change/global warming" :{
 		"US":undefined,
 		"CA":5,
 		"AR":undefined,
@@ -324,7 +324,7 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	},
-	"Economic inequality in my country" :{
+	"Economic inequality" :{
 		"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
@@ -351,7 +351,7 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	},
-	"The future of the retirement or pension plans provided by our government" :{
+	"Future of retirement benefits provided by govt" :{
 		"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
@@ -486,7 +486,7 @@ var data = {
 		"TW":undefined,
 		"TH":undefined
 	},
-	"Aid to countries in the Third World" :{
+	"Aid to countries in Third World" :{
 		"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
@@ -618,7 +618,7 @@ var data = {
 			"KR":2,
 			"TW":undefined,
 			"TH":3},
-		"Environmental PLllution" :{
+		"Environmental pollution" :{
 			"US":undefined,
 			"CA":5,
 			"AR":undefined,
@@ -644,7 +644,7 @@ var data = {
 			"KR":undefined,
 			"TW":undefined,
 			"TH":undefined},
-		"Wrong-doing by/corruption of elected government officials" :{
+		"Wrongdoing by/corruption of elected officials" :{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -722,7 +722,7 @@ var data = {
 			"KR":undefined,
 			"TW":undefined,
 			"TH":undefined},
-		"The future of the retirement or pension plans provided by our government" :{
+		"Future of retirement benefits provided by govt" :{
 			"US":undefined,
 			"CA":4,
 			"AR":undefined,
@@ -748,7 +748,7 @@ var data = {
 			"KR":undefined,
 			"TW":5,
 			"TH":undefined},
-		"Economic inequality in my country" :{
+		"Economic inequality" :{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -775,7 +775,7 @@ var data = {
 			"TW":4,
 			"TH":undefined
 		},
-		"Global climate change/Global warming" :{
+		"Global climate change/global warming" :{
 			"US":undefined,
 			"CA":undefined,
 			"AR":undefined,
@@ -986,7 +986,7 @@ var data = {
 		"KR":undefined,
 		"TW":undefined,
 		"TH":undefined},
-		"Aid to countries in the Third World" :{
+		"Aid to countries in Third World" :{
 			"US":undefined,
 		"CA":undefined,
 		"AR":undefined,
