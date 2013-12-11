@@ -51,9 +51,10 @@
 			 {
 	          	   //if it exists in the array and has a rank, display this text
 	          	el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
-          	 } 
+          	 }  return true;
            }//if does not exist in the array, show this text
         	el.html(el.html()+'<br /> NOT A SURVEYED COUNTRY');
+        	 return false;
         }
       });
 
