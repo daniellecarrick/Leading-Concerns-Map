@@ -33,22 +33,26 @@
             values: data[options. year][options.concern]
           }]
         },
-        
+        //LOOK AT THIS SNOOG!
         onRegionLabelShow: function(e, el, code) {
        
           var rankText = data[options.year][options.concern][code] || 'not in top 5';  
           var hoverText = hover[options.year][code] || '';
           
-          //if there is no value, display "not in survey"
-          for (i = 0; i < data[options.year][options.concern].length; i++) {
-          	
-	          if (data[options.year][options.concern][code] == undefined){
+          //Check if country exists in array
+          for (i = 0; i < data[options.year][options.concern].length; i++) 
+          {
+          	//if it does, and it has no rank, display this text
+	          if (data[options.year][options.concern][code] == undefined)
+	          {
 	          	 el.html(el.html()+'<br />Surveyed but not ranked');
-	          } else {
-	          	//if there is a value, display the ranks
+	          }
+			 else
+			 {
+	          	   //if it exists in the array and has a rank, display this text
 	          	el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
-	          	} 
-        }
+          	 } 
+           }//if does not exist in the array, show this text
         	el.html(el.html()+'<br /> NOT A SURVEYED COUNTRY');
         }
       });
