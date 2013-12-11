@@ -33,28 +33,35 @@
             values: data[options. year][options.concern]
           }]
         },
-        //LOOK AT THIS SNOOG!
+        //LOOK AT THIS SNOOG! :)
         onRegionLabelShow: function(e, el, code) {
        
           var rankText = data[options.year][options.concern][code] || 'not in top 5';  
           var hoverText = hover[options.year][code] || '';
           
           //Check if country exists in array
-          for (i in data[options.year][options.concern]) 
-          {
-          	//if it does, and it has no rank, display this text
-	          if (data[options.year][options.concern][code] == undefined)
-	          {
-	          	 el.html(el.html()+'<br />Surveyed but not ranked');
-	          }
-			 else
-			 {
-	          	   //if it exists in the array and has a rank, display this text
-	          	el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
-          	 }  return true;
-           }//if does not exist in the array, show this text
-        	el.html(el.html()+'<br /> NOT A SURVEYED COUNTRY');
-        	 return false;
+          //Loop through our object of countries and see if the passed in code is
+          //in the object
+          var inArray = false;
+          for (var countryCode in data[options.year][options.concern]) {
+            if(countryCode === code){
+              inArray = true;
+            }
+          }
+
+          //if we found the country -- yay!
+          if(inArray === true){
+            //if it does, and it has no rank, display this text
+            if (data[options.year][options.concern][code] == undefined) {
+              el.html(el.html()+'<br />Surveyed but not ranked');
+            } else {
+              //if it exists in the array and has a rank, display this text
+              el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
+            }
+          // else the passed in code wasn't in our object -- print we didn't find it  
+          } else {
+            el.html(el.html()+'<br /> NOT A SURVEYED COUNTRY');
+          }
         }
       });
 
