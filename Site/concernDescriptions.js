@@ -4,7 +4,7 @@ var concernDescriptions = {
 			"desc" : "<img src='img/icon01.png'/><p><strong>2008 | Recession and unemployment</strong><br />Recession and unemployment was #3 of 19 trended concerns in 2008. It was among the top five issues in 16 countries and was #1 in three: South Korea, Taiwan, and Thailand.</p>"
 		},
 		"Inflation and high prices":{
-			"desc" : "<img src='img/icon06.png'/><p><strong>2008 | Inflation and high prices</strong><br />Inflation and high prices was the #1 concern globally in 2008, up 2 places from 2003, when it ranked 3rd. It was in the top five in 17 countries and was #1 in seven, including the US, China, Germany, and Russia.</p>"
+			"desc" : "<img src='img/icon06.png'/><p><strong>2008 | Inflation and high prices</strong><br />Inflation and high prices was the #1 concern globally in 2008, up 2 places from 2003, when it ranked 3rd. It was in the top five in 17 countries and was #1 in eight, including the US, China, Germany and Russia.</p>"
 		},
 
 		"Money enough to live right and pay the bills":{
@@ -57,7 +57,7 @@ var concernDescriptions = {
 		},
 
 		"Immigration":{
-			"desc" : "<img src='img/icon14.png'/><p><strong>2008 | Immigration</strong><br />Immigration ranked 14th as a global concern in 2008. It ranked in the top five in just one country, the UK (#2). </p>"
+			"desc" : "<img src='img/icon14.png'/><p><strong>2008 | Immigration</strong><br />Immigration ranked 15th as a global concern in 2008. It ranked in the top five in just one country, the UK (#2).</p>"
 		},
 
 	
@@ -84,15 +84,15 @@ var concernDescriptions = {
 		},
 
 		"Inflation and high prices":{
-			"desc" : "<img src='img/icon06.png'/><p>2013 | Inflation and high prices</strong><br />The deal-mindedness consumers have shown since the global financial crisis is not going away. “Inflation and high prices” closely follows recession and unemployment as the world’s #2 concern. It ranks in the top five in 21 of 25 countries and is #1 in four countries, including China and Russia. </p>"
+			"desc" : "<img src='img/icon06.png'/><p><strong>2013 | Inflation and high prices</strong><br />The deal-mindedness consumers have shown since the global financial crisis is not going away. “Inflation and high prices” closely follows recession and unemployment as the world’s #2 concern. It ranks in the top five in 21 of 25 countries and is #1 in four countries, including China and Russia. </p>"
 		},
 
 		"Money enough to live right and pay the bills":{
-			"desc" : "<img src='img/icon11.png'/><p>2013 | Money enough to live right and pay the bills</strong><br />Consumers’ preoccupation with finances extends to their 3rd-ranked concern. Having enough money to live right and pay bills is in the top five in 19 of 25 countries. It is #1 in two countries, Australia and Canada. </p>"
+			"desc" : "<img src='img/icon11.png'/><p><strong>2013 | Money enough to live right and pay the bills</strong><br />Consumers’ preoccupation with finances extends to their 3rd-ranked concern. Having enough money to live right and pay bills is in the top five in 19 of 25 countries. It is #1 in two countries, Australia and Canada. </p>"
 		},
 
 		"Crime and lawlessness":{
-			"desc" : "<img src='img/icon16.png'/><p>2013 | Crime and lawlessness</strong><br />While the economy has crowded out crime and lawlessness globally – it has slipped from 2nd to 4th since 2008 – the issue continues to be paramount in some key developing countries. It is the #1 issue in eight countries, including Brazil, Mexico, India, and Sweden. It ranks in the top five in 19 of 25 countries. </p>"
+			"desc" : "<img src='img/icon16.png'/><p><strong>2013 | Crime and lawlessness</strong><br />While the economy has crowded out crime and lawlessness globally – it has slipped from 2nd to 4th since 2008 – the issue continues to be paramount in some key developing countries. It is the #1 issue in eight countries, including Brazil, Mexico, India, and Sweden. It ranks in the top five in 19 of 25 countries. </p>"
 		},
 
 		"Environmental pollution":{
@@ -100,61 +100,61 @@ var concernDescriptions = {
 		},
 
 		"Wrongdoing by/corruption of elected officials":{
-			"desc" : "<img src='img/icon07.png'/><p>2013 | Wrongdoing by/corruption of elected officials</strong>Frustration with government is on the rise. Wrongdoing and corruption by government officials has moved up to #6 on the list of global concerns, +3 ranks from 2008. It ranks in the top five issues in eight countries, led by the Czech Republic (#2).</p>"
+			"desc" : "<img src='img/icon07.png'/><p><strong>2013 | Wrongdoing by/corruption of elected officials</strong><br />Frustration with government is on the rise. Wrongdoing and corruption by government officials has moved up to #6 on the list of global concerns, +3 ranks from 2008. It ranks in the top five issues in eight countries, led by the Czech Republic (#2).</p>"
 		},
 
 		"Educational quality":{
-			"desc" : "<img src='img/icon12.png'/><p>2013 | Educational quality</strong><br />It’s not just the economies of developing countries that make them worth watching. They are also more likely to prioritize the forward-looking concern of educational quality. Of seven countries ranking education among their top-five concerns, six are developing nations. Concern ranks highest in Argentina and Brazil (#3). Overall, education ranks #7.</p>"
+			"desc" : "<img src='img/icon12.png'/><p><strong>2013 | Educational quality</strong><br />It’s not just the economies of developing countries that make them worth watching. They are also more likely to prioritize the forward-looking concern of educational quality. Of seven countries ranking education among their top-five concerns, six are developing nations. Concern ranks highest in Argentina and Brazil (#3). Overall, education ranks #7.</p>"
 		},
 
 		"Cost of health care":{
-			"desc" : "<img src='img/icon01.png'/><p>2013 | Cost of health care</strong><br />The cost of healthcare ranks #8 among global concerns, unchanged from 2008. It ranks in  the top five in only two countries: the US (#4) and Australia (#5). </p> "
+			"desc" : "<img src='img/icon01.png'/><p><strong>2013 | Cost of health care</strong><br />The cost of healthcare ranks #8 among global concerns, unchanged from 2008. It ranks in  the top five in only two countries: the US (#4) and Australia (#5). </p> "
 		},
 
 		"Future of retirement benefits provided by govt":{
-			"desc" : "<img src='img/icon17.png'/><p>2013 | Future of retirement benefits provided by govt</strong><br />The future of retirement and pension plans provided by government is a growing concern, ranking 9th, up from 14th in 2008. The issue is felt particularly in developed countries with aging populations. Concern is highest in Japan (#2) and Germany (#3).</p>"
+			"desc" : "<img src='img/icon17.png'/><p><strong>2013 | Future of retirement benefits provided by govt</strong><br />The future of retirement and pension plans provided by government is a growing concern, ranking 9th, up from 14th in 2008. The issue is felt particularly in developed countries with aging populations. Concern is highest in Japan (#2) and Germany (#3).</p>"
 		},
 
 		"Economic inequality":{	
-			"desc" : "<img src='img/icon03.png'/><p>2013 | Economic inequality</strong><br />Economic inequality is a growing concern globally, ranking 10th, up from 13th in 2008. It is in the top-five in four countries, with concern highest in Taiwan and Turkey (both #4).</p>"
+			"desc" : "<img src='img/icon03.png'/><p><strong>2013 | Economic inequality</strong><br />Economic inequality is a growing concern globally, ranking 10th, up from 13th in 2008. It is in the top-five in four countries, with concern highest in Taiwan and Turkey (both #4).</p>"
 		},
 
 		"Global climate change/global warming":{
-			"desc" : "<img src='img/icon08.png'/><p>2013 | Global climate change/global warming</strong>Despite growing alarms from scientists, global warming and climate change still ranks relatively low on the world’s list of concerns, at #11, down 1 rank from 2008. It is a top-five issue in one country, Sweden (#5). </p>"
+			"desc" : "<img src='img/icon08.png'/><p><strong>2013 | Global climate change/global warming</strong><br/>Despite growing alarms from scientists, global warming and climate change still ranks relatively low on the world’s list of concerns, at #11, down 1 rank from 2008. It is a top-five issue in one country, Sweden (#5). </p>"
 		},
 
 
 		"Terrorism":{
-			"desc" : "<img src='img/icon18.png'/><p>2013 | Terrorism</strong><br />Terrorism ranks #12 globally, unchanged from in 2008. It is a top-five concern in only one country, Turkey, where it is #1.</p>"
+			"desc" : "<img src='img/icon18.png'/><p><strong>2013 | Terrorism</strong><br />Terrorism ranks #12 globally, unchanged from 2008. It is a top five concern in only one country, Turkey, where it is #1.</p>"
 		},
 
 		"Drug abuse":{
-			"desc" : "<img src='img/icon04.png'/><p>2013 | Drug abuse</strong><br />Drug abuse has fallen as a global concern to #13 globally, down 6 ranks from 2008. However, it remains a top-five issue in four countries, led by Thailand and South Africa (#2 in both). </p>"
+			"desc" : "<img src='img/icon04.png'/><p><strong>2013 | Drug abuse</strong><br />Drug abuse has fallen as a global concern to #13 globally, down 6 ranks from 2008. However, it remains a top-five issue in four countries, led by Thailand and South Africa (#2 in both). </p>"
 		},
 
 		"Religious extremism/fundamentalism":{
-			"desc" : "<img src='img/icon09.png'/><p>2013 | Religious extremism/fundamentalism</strong><br />Religious extremism/fundamentalism is #14 among trended global concerns, but it has moved up 2 ranks from 2008. It is not a top-five issue anywhere, although it has become a top-ten concern in several Western European countries. </p>"
+			"desc" : "<img src='img/icon09.png'/><p><strong>2013 | Religious extremism/fundamentalism</strong><br />Religious extremism/fundamentalism is #14 among trended global concerns, but it has moved up 2 ranks from 2008. It is not a top-five issue anywhere, although it has become a top-ten concern in several Western European countries. </p>"
 		},
 
 		"Immigration":{
-			"desc" : "<img src='img/icon14.png'/><p>2013 | Immigration</strong><br />Immigration ranks #15 globally, unchanged from five years ago. It is a top-five concern in one country, the UK (#5).</p>"
+			"desc" : "<img src='img/icon14.png'/><p><strong>2013 | Immigration</strong><br />Immigration ranks #15 globally, unchanged from five years ago. It is a top-five concern in one country, the UK (#5).</p>"
 		},
 
 		"Relations with foreign countries":{
-			"desc" : "<img src='img/icon19.png'/><p>2013 | Relations with foreign countries</strong><br />Religious extremism/fundamentalism is #14 among trended global concerns, but it has moved up 2 ranks from 2008. It is not a top-five issue anywhere, although it has become a top-ten concern in several Western European countries.</p>"
+			"desc" : "<img src='img/icon19.png'/><p><strong>2013 | Relations with foreign countries</strong><br />Religious extremism/fundamentalism is #14 among trended global concerns, but it has moved up 2 ranks from 2008. It is not a top-five issue anywhere, although it has become a top-ten concern in several Western European countries.</p>"
 		
 		},
 
 		"AIDS":{
-			"desc" : "<img src='img/icon05.png'/><p>2013 | AIDS</strong><br />AIDS continues to be a top-tier concern in South Africa, where it ranks #3. But in the world as a whole, it has fallen steadily and now ranks #17, down from #9 a decade ago.</p>"
+			"desc" : "<img src='img/icon05.png'/><p><strong>2013 | AIDS</strong><br />AIDS continues to be a top-tier concern in South Africa, where it ranks #3. But in the world as a whole, it has fallen steadily and now ranks #17, down from #9 a decade ago.</p>"
 		},
 
 		"Relations between racial and ethnic groups":{
-			"desc" : "<img src='img/icon10.png'/><p>2013 | Relations between racial and ethnic groups</strong><br />Relations between racial and ethnic groups ranks #18 of 19 trended concerns globally, down one rank from 2008. It does not rank in the top five of any of 25 countries.</p>"
+			"desc" : "<img src='img/icon10.png'/><p><strong>2013 | Relations between racial and ethnic groups</strong><br />Relations between racial and ethnic groups ranks #18 of 19 trended concerns globally, down one rank from 2008. It does not rank in the top five of any of 25 countries.</p>"
 		},
 
 		"Aid to countries in Third World":{
-			"desc" : "<img src='img/icon15.png'/><p>2013 | Aid to countries in Third World</strong><br />Aid to countries in the Third World is last among 19 trended concerns, unchanged from 2008. It is not a top-five issue in any of 25 countries.  </p>"
+			"desc" : "<img src='img/icon15.png'/><p><strong>2013 | Aid to countries in Third World</strong><br />Aid to countries in the Third World is last among 19 trended concerns, unchanged from 2008. It is not a top-five issue in any of 25 countries.  </p>"
 		}
 	}
 };
