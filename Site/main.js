@@ -40,7 +40,7 @@
           var hoverText = hover[options.year][code] || '';
           
           //Check if country exists in array
-          for (i = 0; i < data[options.year][options.concern].length; i++) 
+          for (i in data[options.year][options.concern]) 
           {
           	//if it does, and it has no rank, display this text
 	          if (data[options.year][options.concern][code] == undefined)
