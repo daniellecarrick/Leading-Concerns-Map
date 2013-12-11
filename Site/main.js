@@ -53,14 +53,14 @@
           if(inArray === true){
             //if it does, and it has no rank, display this text
             if (data[options.year][options.concern][code] == undefined) {
-              el.html(el.html()+'<br />Surveyed but not ranked');
+              el.html(el.html()+'<br /><strong>Not in top 5</strong><br />' + hoverText);
             } else {
               //if it exists in the array and has a rank, display this text
-              el.html(el.html()+'<br /> Rank - ' + rankText + '<br />' + hoverText);
+              el.html(el.html()+'<br /><strong> Rank - ' + rankText + '</strong><br />' + hoverText);
             }
           // else the passed in code wasn't in our object -- print we didn't find it  
           } else {
-            el.html(el.html()+'<br /> NOT A SURVEYED COUNTRY');
+            el.html(el.html()+'<br />Not in survey');
           }
         }
       });
